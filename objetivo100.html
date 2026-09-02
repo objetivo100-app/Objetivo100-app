@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Objetivo 100</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: Arial, sans-serif;
+      background: #f8f7f3;
+      display: flex;
+      justify-content: center;
+    }
+
+    .screen {
+      width: 100%;
+      max-width: 430px;
+      min-height: 100vh;
+      padding: 32px 24px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .title {
+      text-align: center;
+      font-size: 22px;
+      font-weight: 700;
+      margin-bottom: 34px;
+    }
+
+    .objective {
+      text-align: center;
+      font-size: 36px;
+      font-weight: 700;
+      margin-bottom: 34px;
+    }
+
+    .label {
+      text-align: center;
+      font-size: 14px;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+
+    .progress-number {
+      text-align: center;
+      font-size: 34px;
+      font-weight: 700;
+      margin-bottom: 18px;
+    }
+
+    .progress-bar {
+      width: 100%;
+      height: 12px;
+      background: #e5e2dc;
+      border-radius: 20px;
+      overflow: hidden;
+      margin-bottom: 34px;
+    }
+
+    .progress-fill {
+      width: 66%;
+      height: 100%;
+      background: #b8c9bd;
+      border-radius: 20px;
+    }
+
+    .actions-title {
+      font-size: 15px;
+      font-weight: 700;
+      margin-bottom: 12px;
+    }
+
+    .action {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      min-height: 42px;
+      padding: 0 12px;
+      margin-bottom: 7px;
+      background: #ffffff;
+      border-radius: 9px;
+      font-size: 14px;
+    }
+
+    .action-percent {
+      font-weight: 700;
+    }
+
+    .button {
+      width: 100%;
+      min-height: 52px;
+      margin-top: 22px;
+      border: none;
+      border-radius: 12px;
+      background: #c9d8ce;
+      font-size: 15px;
+      font-weight: 700;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+
+  <main class="screen">
+
+    <div class="title">OBJETIVO 100</div>
+
+    <div class="objective">100%</div>
+
+    <div class="label">MI PROGRESO</div>
+
+    <div class="progress-number">66%</div>
+
+    <div class="progress-bar">
+      <div class="progress-fill"></div>
+    </div>
+
+    <div class="actions-title">MIS ACCIONES</div>
+
+    <div class="action">
+      <span>Excel</span>
+      <span class="action-percent">80%</span>
+    </div>
+
+    <div class="action">
+      <span>Inglés</span>
+      <span class="action-percent">60%</span>
+    </div>
+
+    <div class="action">
+      <span>Lectura</span>
+      <span class="action-percent">100%</span>
+    </div>
+
+    <div class="action">
+      <span>Escritura</span>
+      <span class="action-percent">50%</span>
+    </div>
+
+    <div class="action">
+      <span>Psicotécnico</span>
+      <span class="action-percent">70%</span>
+    </div>
+
+    <div class="action">
+      <span>Satisfacción</span>
+      <span class="action-percent">40%</span>
+    </div>
+
+    <button class="button">
+      REGISTRAR MI PROGRESO
+    </button>
+
+  </main>
+
+</body>
+</html>
